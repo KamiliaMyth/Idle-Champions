@@ -280,6 +280,13 @@ this.game.gameInstances.Controller.formation.slots.heroAlive := New GameObjectSt
 this.game.gameInstances.Controller.formation.slots.slotDef := New GameObjectStructure(this.game.gameInstances.Controller.formation.slots,"Int", [0x128])
 this.game.gameInstances.Controller.formation.slots.slotDef.Column := New GameObjectStructure(this.game.gameInstances.Controller.formation.slots.slotDef,"Int", [0x30])
 this.game.gameInstances.Controller.formation.slots.slotDef.Row := New GameObjectStructure(this.game.gameInstances.Controller.formation.slots.slotDef,"Int", [0x34])
+<<<<<<< HEAD
+=======
+this.game.gameInstances.Controller.formation.heroTransitionOverrides := New GameObjectStructure(this.game.gameInstances.Controller.formation,"Dict", [0xe8])
+this.game.gameInstances.Controller.formation.heroTransitionOverrides._CollectionKeyType := "CrusadersGame.GameScreen.Formation.TransitionOverrideKey"
+this.game.gameInstances.Controller.formation.heroTransitionOverrides._CollectionValType := "System.Action<System.Action>"
+this.game.gameInstances.Controller.formation.heroTransitionOverrides.Action := New GameObjectStructure(this.game.gameInstances.Controller.formation.heroTransitionOverrides,"Int", [])
+>>>>>>> 13ce69cecd216521de080c641717890847d51681
 this.game.gameInstances.Controller.formation.TransitionOverrides := New GameObjectStructure(this.game.gameInstances.Controller.formation,"Dict", [0xf0])
 this.game.gameInstances.Controller.formation.TransitionOverrides._CollectionKeyType := "System.Enum"
 this.game.gameInstances.Controller.formation.TransitionOverrides._CollectionValType := "System.Collections.Generic.List<System.Action<System.Action>>"
